@@ -15,7 +15,9 @@ h = HuffmanCoding(path)
 if operation == "compress":
     output_path = h.compress()
     print("Compressed file path: " + output_path)
-if operation == "decompress":
+elif operation == "decompress":
     output_path = h.compress()
     decom_path = h.decompress(output_path)
     print("Decompressed file path: " + decom_path)
+else:
+    print("Comando inválido. Use 'compress' ou 'decompress'.")
