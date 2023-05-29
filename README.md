@@ -2,17 +2,17 @@
 
 # Text Compression
 
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 3<br>
+**Conteúdo da Disciplina**: Algoritmos Ambiciosos<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 19/0086971 | Felipe Direito Corrieri de Macedo |
+| 19/0094486  |  Pedro Henrique Nogueira Gonçalves |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O objetivo deste projeto é implementar o algoritmo de Huffman com a finalidade de comprimir arquivos de texto, resultando em uma redução significativa do seu tamanho. Através desse algoritmo ambicioso, buscamos explorar eficientemente a estrutura e padrões presentes no arquivo, de modo a otimizar a sua representação e economizar espaço de armazenamento.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
