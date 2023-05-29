@@ -23,16 +23,26 @@ O objetivo deste projeto é implementar o algoritmo de Huffman com a finalidade 
 ![alt text](https://github.com/projeto-de-algoritmos/Greed_Text_Compression/blob/main/assets/texto3.png)
 
 
+
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Python <br>
+
+
+É necessário instalar a biblioteca pillow:
+
+```console
+pip install pillow
+```
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+- Para executar o projeto, basta rodar a main com o parametro decompress ou compress :
+
+```
+python3 main.py decompress || python3 main.py compress
+```
+
+
 
 
 
