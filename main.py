@@ -21,3 +21,5 @@ elif operation == "decompress":
     print("Decompressed file path: " + decom_path)
 else:
     print("Comando inválido. Use 'compress' ou 'decompress'.")
+    
+    ##
