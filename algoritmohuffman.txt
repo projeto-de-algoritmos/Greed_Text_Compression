@@ -1,0 +1,26 @@
+Algoritmo de Huffman
+
+O algoritmo de Huffman é um método de compactação de dados que utiliza códigos de tamanho variável para representar diferentes símbolos com base em sua frequência de ocorrência. Ele foi desenvolvido por David A. Huffman em 1952 enquanto era estudante de graduação no Instituto de Tecnologia de Massachusetts (MIT).
+
+O objetivo do algoritmo de Huffman é reduzir o tamanho de um conjunto de dados, atribuindo códigos mais curtos aos símbolos mais frequentes e códigos mais longos aos símbolos menos frequentes. Isso é possível porque símbolos mais frequentes podem ser representados por menos bits, economizando espaço em relação à representação comum de tamanho fixo.
+
+O algoritmo de Huffman opera em duas etapas principais: construção da árvore de Huffman e geração dos códigos de Huffman. Vamos descrever essas etapas em detalhes:
+
+1. Construção da árvore de Huffman:
+   - Cria-se um nó para cada símbolo, contendo a frequência de ocorrência desse símbolo no conjunto de dados.
+   - Os nós são organizados em uma fila de prioridade, em que o nó com menor frequência recebe maior prioridade.
+   - Repetidamente, os dois nós de menor frequência são retirados da fila e combinados para formar um novo nó pai, cuja frequência é a soma das frequências dos nós filhos.
+   - Esse novo nó pai é inserido na fila de prioridade.
+   - O processo é repetido até que reste apenas um nó na fila, que se torna a raiz da árvore de Huffman.
+
+2. Geração dos códigos de Huffman:
+   - A árvore de Huffman gerada na etapa anterior é percorrida a partir da raiz em direção às folhas.
+   - Ao percorrer para a esquerda, é adicionado o bit 0 ao código atual; ao percorrer para a direita, é adicionado o bit 1.
+   - Quando uma folha é alcançada, o código formado pelos bits adicionados ao longo do caminho até essa folha representa o símbolo correspondente.
+   - Os códigos de Huffman resultantes são atribuídos aos símbolos e armazenados em uma tabela de codificação.
+
+Após a conclusão dessas etapas, o conjunto de dados original pode ser compactado substituindo cada símbolo por seu respectivo código de Huffman. Esse processo resulta em uma representação mais eficiente do conjunto de dados, especialmente quando símbolos com frequências diferentes estão presentes.
+
+Para descompactar os dados, basta utilizar a árvore de Huffman para decodificar os códigos, percorrendo a partir da raiz e seguindo o caminho determinado por cada bit do código.
+
+O algoritmo de Huffman é amplamente utilizado em diversas aplicações de compactação de dados, como compressão de arquivos, transmissão de dados em redes e codificação de áudio e vídeo. Ele proporciona uma forma eficiente de representar informações, reduzindo o espaço necessário para armazenamento ou transmissão.
