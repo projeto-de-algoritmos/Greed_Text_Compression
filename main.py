@@ -7,6 +7,8 @@ if len(sys.argv) != 2:
 
 operation = sys.argv[1]
 path = "texto.txt"
+##path = "algoritmohuffman.txt"
+
 h = HuffmanCoding(path)
 
 if operation == "compress":
