@@ -38,6 +38,10 @@ Não é necessário nenhum framework para rodar este projeto.
 python3 main.py decompress || python3 main.py compress
 ```
 
+## Apresentação 
+
+https://drive.google.com/file/d/1zMCSpv42WWNNX-aty6I7KMAHiUTp088b/view?usp=sharing
+
 
 
 
