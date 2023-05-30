@@ -28,11 +28,7 @@ O objetivo deste projeto é implementar o algoritmo de Huffman com a finalidade 
 **Linguagem**: Python <br>
 
 
-É necessário instalar a biblioteca pillow:
-
-```console
-pip install pillow
-```
+Não é necessário nenhum framework para rodar este projeto.
 
 ## Uso 
 
